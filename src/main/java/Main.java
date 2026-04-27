@@ -52,6 +52,18 @@ public class Main {
                 for (String indieSong : indieSongs){
                     System.out.println(indieSong);
                 }
+            } else if (random.Genre.equals("R&B")) {
+                for (String rnbSong : rnbSongs) {
+                    System.out.println(rnbSong);
+                }
+            } else if (random.Genre.equals("Jazz")) {
+                for (String jazzSong : jazzSongs) {
+                    System.out.println(jazzSong);
+                }
+            } else if (random.Genre.equals("Classical")) {
+                for (String classicalSong : classicalSongs) {
+                    System.out.println(classicalSong);
+                }
             }
         }else{
             return;
